@@ -1,0 +1,44 @@
+/* This is the base style that will be 
+applied if no other media queries match */
+body {
+    background-color: blue;
+}
+
+/* Media query */
+
+/* This is going to target devices 0px to 499px */
+@media (max-width: 500px) {
+    body {
+        background-color: red;
+        font-size: 2em;
+    }
+}
+
+/* This is going to target devices 700px and up */
+@media (min-width: 700px) {
+    body {
+        background-color: lightblue;
+    }
+}
+.float-Answers {
+    text-align: center;
+    padding: 20px;
+}
+
+.float-box {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    float: left;
+    padding: 20px;
+    border: 2px solid navy;
+    background-color: palegoldenrod;
+} 
+.truth1{
+        color: white;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+} 
+.truth2{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+} 
